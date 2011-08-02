@@ -7,3 +7,8 @@ Fix:
 - fixed error Rake::DSL. Fixed by adding require 'rake/dsl_definitions' to Rakefile
 - no need to go down to Rake 0.8.7
 
+on Heroku:
+- heroku create myapp
+- git push heroku master
+- heroku rake db:migrate
+- heroku restart
