@@ -2,3 +2,36 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+
+header{
+padding:0 0 0 10%;
+}
+
+footer{
+padding:0 0 0 10%;
+}
+
+#menu{
+float:right;
+padding-right:20%;
+font-family:arial;
+}
+
+#body_content_title{
+font-family:arial;
+}
+
+#body_content{
+text-align:justify;
+padding:0 0 0 10%;
+width:800px;
+}
+
+#body_content_left{
+width:390px;
+}
+
+#body_content_right{
+padding-left:20px;
+width:390px;
+}
