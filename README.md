@@ -1,5 +1,8 @@
 # Working copy of RefineryCMS v1.0.3 on Rails 3.0.9 (Rake 0.9.2)
 
+### Updates:
+* now uses MYSQL database (previously SQLite3) - 8.14.11
+
 ### Fixes:
 * fixed error Rake::DSL. Fixed by adding ```require 'rake/dsl_definitions'``` to Rakefile
 * no need to go down to Rake 0.8.7
@@ -15,4 +18,4 @@
 * heroku restart
 
 ##### Note:
-* uses sqlite3, modify if desired
+* uses MySQL, modify if desired
