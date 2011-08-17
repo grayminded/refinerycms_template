@@ -2,6 +2,7 @@
 
 ### Updates:
 * now uses MYSQL database (previously SQLite3) - 8.14.11
+* added Gmail configuration to environment.rb
 
 ### Fixes:
 * fixed error Rake::DSL. Fixed by adding ```require 'rake/dsl_definitions'``` to Rakefile
@@ -9,7 +10,7 @@
 
 ### Instructions:
 * ```git clone git@github.com:6hoursdaily/refinerycms_template.git```
-* ```bundle install && bundle update && rake db:migrate```
+* ```bundle install && bundle update && rake db:create && rake db:migrate```
 
 ### on Heroku:
 * heroku create myapp
