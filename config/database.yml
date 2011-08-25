@@ -17,4 +17,4 @@ production: &production
   host: localhost
   database: refinerycms_prod
   username: root
-  password: 
+  password: yourpassword
